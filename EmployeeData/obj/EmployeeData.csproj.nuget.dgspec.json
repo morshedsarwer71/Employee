@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/morshedsarwer/Desktop/Employee/Employee.Web/Employee.Web.csproj": {}
+    "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj": {}
   },
   "projects": {
-    "/Users/morshedsarwer/Desktop/Employee/Employee.Web/Employee.Web.csproj": {
+    "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/morshedsarwer/Desktop/Employee/Employee.Web/Employee.Web.csproj",
-        "projectName": "Employee.Web",
-        "projectPath": "/Users/morshedsarwer/Desktop/Employee/Employee.Web/Employee.Web.csproj",
+        "projectUniqueName": "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj",
+        "projectName": "EmployeeData",
+        "projectPath": "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj",
         "packagesPath": "/Users/morshedsarwer/.nuget/packages/",
-        "outputPath": "/Users/morshedsarwer/Desktop/Employee/Employee.Web/obj/",
+        "outputPath": "/Users/morshedsarwer/Desktop/Employee/EmployeeData/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/morshedsarwer/.nuget/NuGet/NuGet.Config"
@@ -35,22 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,9 +46,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

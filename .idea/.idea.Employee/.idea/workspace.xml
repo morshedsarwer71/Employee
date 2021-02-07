@@ -4,11 +4,16 @@
     <projectFile>Employee.Web/Employee.Web.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="" />
+    <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -31,6 +36,7 @@
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7T74yMXPTNzdfhtMqTIATB41U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -90,6 +96,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
+      <workItem from="1612685018685" duration="360000" />
     </task>
     <servers />
   </component>
@@ -98,6 +105,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
