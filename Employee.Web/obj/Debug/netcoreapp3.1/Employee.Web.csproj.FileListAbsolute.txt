@@ -39,3 +39,8 @@
 /Users/morshedsarwer/Desktop/Employee/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll
 /Users/morshedsarwer/Desktop/Employee/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb
 /Users/morshedsarwer/Desktop/Employee/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.genruntimeconfig.cache
+/Users/morshedsarwer/Desktop/Employee/Employee.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/morshedsarwer/Desktop/Employee/Employee.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/morshedsarwer/Desktop/Employee/Employee.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/morshedsarwer/Desktop/Employee/Employee.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/morshedsarwer/Desktop/Employee/Employee.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll

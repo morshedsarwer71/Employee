@@ -1,10 +1,11 @@
 using EmployeeData.Models;
 using EmployeeData.SeedData;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeData.Context
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options):base(options)
         {
@@ -15,7 +16,8 @@ namespace EmployeeData.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.EmployeeDataSeeding();
+            base.OnModelCreating(modelBuilder);
+            // modelBuilder.EmployeeDataSeeding();
           
         }
     }

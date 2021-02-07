@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +39,10 @@
       <option value="$PROJECT_DIR$/EmployeeData/Interfaces/IEmployee.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Services/EmployeeRepository.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSedding.cs" />
-      <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSeeding.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7T74yMXPTNzdfhtMqTIATB41U" />
@@ -129,7 +111,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
-      <workItem from="1612685018685" duration="5502000" />
+      <workItem from="1612685018685" duration="6434000" />
     </task>
     <servers />
   </component>
