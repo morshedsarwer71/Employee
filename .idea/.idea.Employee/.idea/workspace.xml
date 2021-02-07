@@ -7,22 +7,23 @@
     <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/Employee.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Employee.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Employee.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Employee.Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/EmployeeData.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/EmployeeData.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/bin/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -46,13 +50,17 @@
       <option value="$PROJECT_DIR$/Employee.Web/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Interfaces/IEmployee.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Services/EmployeeRepository.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Context/EmployeeDataContext.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Class1.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/appsettings.json" />
-      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Models/Employee.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Interfaces/IEmployee.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Services/EmployeeRepository.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSedding.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSeeding.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7T74yMXPTNzdfhtMqTIATB41U" />
@@ -63,6 +71,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34975636" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,6 +80,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Employee.Web">
+    <configuration name="Employee.Web JavaScript" type="JavascriptDebugType" uri="https://localhost:5001/weatherforecast">
+      <method v="2" />
+    </configuration>
     <configuration name="Employee.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Employee.Web/Employee.Web.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -77,7 +90,6 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <browser with-js-debugger="true" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -104,6 +116,7 @@
     <list>
       <item itemvalue=".NET Launch Settings Profile.Employee.Web" />
       <item itemvalue=".NET Launch Settings Profile.Employee.Web: IIS Express" />
+      <item itemvalue="JavaScript Debug.Employee.Web JavaScript" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,7 +129,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
-      <workItem from="1612685018685" duration="1270000" />
+      <workItem from="1612685018685" duration="5502000" />
     </task>
     <servers />
   </component>

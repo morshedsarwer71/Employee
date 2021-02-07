@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EmployeeData.Context;
+using EmployeeData.Interfaces;
+using EmployeeData.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,7 +31,9 @@ namespace Employee.Web
         {
             services.AddDbContextPool<AppDbContext>(option=>option.UseNpgsql(Configuration.GetConnectionString("ConnectionString"),b=>
                 b.MigrationsAssembly("Employee.Web")));
+            services.AddScoped<IEmployee, EmployeeRepository>();
             services.AddControllers();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

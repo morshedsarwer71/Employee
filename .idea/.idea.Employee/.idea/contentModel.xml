@@ -8,9 +8,19 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="EmployeeController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Employee.Web.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20210207082707_initialMigration.cs" t="Include" />
+          <e p="20210207082707_initialMigration.Designer.cs" t="Include" />
+          <e p="20210207085832_seedDataEmpoyee.cs" t="Include" />
+          <e p="20210207085832_seedDataEmpoyee.Designer.cs" t="Include" />
+          <e p="20210207090334_seedDataEmpoyees.cs" t="Include" />
+          <e p="20210207090334_seedDataEmpoyees.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -31,6 +41,9 @@
           <e p="AppDbContext.cs" t="Include" />
         </e>
         <e p="EmployeeData.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IEmployee.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Employee.cs" t="Include" />
         </e>
@@ -40,6 +53,12 @@
               <e p="EmployeeData.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="SeedData" t="Include">
+          <e p="DataSeeding.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="EmployeeRepository.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

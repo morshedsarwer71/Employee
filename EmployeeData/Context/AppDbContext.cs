@@ -1,4 +1,5 @@
 using EmployeeData.Models;
+using EmployeeData.SeedData;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeData.Context
@@ -11,5 +12,11 @@ namespace EmployeeData.Context
         }
 
         public DbSet<Employee> Employees { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.EmployeeDataSeeding();
+          
+        }
     }
 }

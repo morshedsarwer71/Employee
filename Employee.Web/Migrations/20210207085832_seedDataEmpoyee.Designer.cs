@@ -2,15 +2,17 @@
 using EmployeeData.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace Employee.Web.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210207085832_seedDataEmpoyee")]
+    partial class seedDataEmpoyee
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +42,9 @@ namespace Employee.Web.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 2,
-                            Email = "morshedsarwer@email.com",
-                            Name = "morshed sarwer"
+                            Id = 1,
+                            Email = "morshed@email.com",
+                            Name = "morshed"
                         });
                 });
 #pragma warning restore 612, 618
