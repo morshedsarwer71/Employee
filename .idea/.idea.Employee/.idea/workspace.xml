@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Employee.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Employee.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Employee.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Employee.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/EmployeeData.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/EmployeeData.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/Debug/netcoreapp3.1/EmployeeData.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/EmployeeData.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeData/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeData/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +38,6 @@
       <option value="$PROJECT_DIR$/Employee.Data/Models/Employee.cs" />
       <option value="$PROJECT_DIR$/Employee.Data/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Models/Employee.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/appsettings.json" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Class1.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Models/Department.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Models/Employee.cs" />
@@ -29,10 +45,14 @@
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f5c00ac3-561e-4303-9381-7370d6963603/console.sql" />
       <option value="$PROJECT_DIR$/Employee.Web/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Interfaces/IEmployee.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Services/EmployeeRepository.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
       <option value="$PROJECT_DIR$/Employee.Data.Layer/Context/EmployeeDataContext.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Class1.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/appsettings.json" />
+      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Models/Employee.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7T74yMXPTNzdfhtMqTIATB41U" />
@@ -96,7 +116,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
-      <workItem from="1612685018685" duration="360000" />
+      <workItem from="1612685018685" duration="1270000" />
     </task>
     <servers />
   </component>

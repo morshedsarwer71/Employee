@@ -269,6 +269,19 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "EmployeeData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeData.dll": {}
+        }
       }
     }
   },
@@ -844,10 +857,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EmployeeData/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeData/EmployeeData.csproj",
+      "msbuildProject": "../EmployeeData/EmployeeData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "EmployeeData >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.2"
@@ -876,7 +895,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj": {
+              "projectPath": "/Users/morshedsarwer/Desktop/Employee/EmployeeData/EmployeeData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
