@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+
 namespace EmployeeData.ViewModels
 {
     public class RegisterModel
@@ -13,5 +14,8 @@ namespace EmployeeData.ViewModels
         [DataType(DataType.Password)]
         [Compare("Password")]
         public string ConfirmPassword { get; set; }
+
+        public string City { get; set; }
+        public string Gender { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using EmployeeData.Context;
 using EmployeeData.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +10,10 @@ namespace Employee.Web.Controllers
     [Route("api/[controller]")]
     public class AccountController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -29,10 +30,12 @@ namespace Employee.Web.Controllers
         public async Task<IActionResult> Register(RegisterModel model)
         {
            
-                var user = new IdentityUser
+                var user = new ApplicationUser
                 {
                     UserName = model.Email,
                     Email = model.Email,
+                    City = model.City,
+                    Gender = model.Gender
                 };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 return result.Succeeded ? Ok(user) : Ok("not inserted");

@@ -33,7 +33,7 @@ namespace Employee.Web
             services.AddDbContextPool<AppDbContext>(option=>option.UseNpgsql(Configuration.GetConnectionString("ConnectionString"),b=>
                 b.MigrationsAssembly("Employee.Web")));
             services.AddScoped<IEmployee, EmployeeRepository>();
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
                 {
                     //this change PassOptions Class from IdentityOption Class
                     options.Password.RequiredLength = 5;

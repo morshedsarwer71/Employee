@@ -13,4 +13,8 @@
       </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="CustomValidation" />
+    </ItemGroup>
+
 </Project>

@@ -21,6 +21,8 @@
           <e p="20210207090334_seedDataEmpoyees.Designer.cs" t="Include" />
           <e p="20210207104529_identiyAdded.cs" t="Include" />
           <e p="20210207104529_identiyAdded.Designer.cs" t="Include" />
+          <e p="20210208090449_applocationUserAdded.cs" t="Include" />
+          <e p="20210208090449_applocationUserAdded.Designer.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -41,7 +43,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Context" t="Include">
           <e p="AppDbContext.cs" t="Include" />
+          <e p="ApplicationUser.cs" t="Include" />
         </e>
+        <e p="CustomValidation" t="Include" />
         <e p="EmployeeData.csproj" t="IncludeRecursive" />
         <e p="Interfaces" t="Include">
           <e p="IEmployee.cs" t="Include" />
