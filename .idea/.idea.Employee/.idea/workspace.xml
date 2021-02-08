@@ -49,7 +49,6 @@
       <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSedding.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/SeedData/DataSeeding.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/ViewModels/LoginViewModel.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/CustomValidation/CustomEmailValidation.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Context/ApplicationUser.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
@@ -63,8 +62,9 @@
       <option value="$PROJECT_DIR$/EmployeeData/ViewModels/RoleAssignViewModels.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Interfaces/IAdministration.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Controllers/AdministrationController.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/SeedData/Administration.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Controllers/AdministrationController.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7T74yMXPTNzdfhtMqTIATB41U" />
@@ -133,7 +133,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
-      <workItem from="1612685018685" duration="24459000" />
+      <workItem from="1612685018685" duration="25200000" />
     </task>
     <servers />
   </component>
