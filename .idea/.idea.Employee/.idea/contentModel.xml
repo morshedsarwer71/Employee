@@ -8,8 +8,8 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="EmployeeController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Employee.Web.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
@@ -19,6 +19,8 @@
           <e p="20210207085832_seedDataEmpoyee.Designer.cs" t="Include" />
           <e p="20210207090334_seedDataEmpoyees.cs" t="Include" />
           <e p="20210207090334_seedDataEmpoyees.Designer.cs" t="Include" />
+          <e p="20210207104529_identiyAdded.cs" t="Include" />
+          <e p="20210207104529_identiyAdded.Designer.cs" t="Include" />
           <e p="AppDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -59,6 +61,10 @@
         </e>
         <e p="Services" t="Include">
           <e p="EmployeeRepository.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="RegisterModel.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

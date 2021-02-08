@@ -1,20 +1,22 @@
 using EmployeeData.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employee.Web.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployee _employee;
-
         public EmployeeController(IEmployee employee)
         { 
             _employee = employee;
         }
         [HttpGet]
         [Route("employees")]
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return Ok(_employee.Employees());
