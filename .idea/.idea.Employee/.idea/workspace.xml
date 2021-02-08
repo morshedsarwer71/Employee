@@ -7,11 +7,13 @@
     <list default="true" id="577360bc-1e56-4626-92eb-73129e5f00c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Employee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Controllers/AdministrationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Controllers/AdministrationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/bin/Debug/netcoreapp3.1/EmployeeData.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.Web/obj/Debug/netcoreapp3.1/Employee.Web.pdb" afterDir="false" />
@@ -68,12 +70,18 @@
       <option value="$PROJECT_DIR$/Employee.Web/Controllers/EmployeeController.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/CustomValidation/CustomEmailValidation.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Context/ApplicationUser.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/Context/AppDbContext.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/ViewModels/RegisterModel.cs" />
-      <option value="$PROJECT_DIR$/Employee.Web/Controllers/AccountController.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/ViewModels/RoleViewModel.cs" />
       <option value="$PROJECT_DIR$/EmployeeData/ViewModels/EditRoleViewModel.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/ViewModels/AddUserToRoleModels.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/POCO/User.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/POCO/Role.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/ViewModels/RoleAssignViewModels.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/Interfaces/IAdministration.cs" />
+      <option value="$PROJECT_DIR$/Employee.Web/Startup.cs" />
+      <option value="$PROJECT_DIR$/EmployeeData/SeedData/Administration.cs" />
       <option value="$PROJECT_DIR$/Employee.Web/Controllers/AdministrationController.cs" />
     </changedPaths>
   </component>
@@ -143,7 +151,7 @@
       <updated>1612636458375</updated>
       <workItem from="1612636470534" duration="3434000" />
       <workItem from="1612640113308" duration="7422000" />
-      <workItem from="1612685018685" duration="19816000" />
+      <workItem from="1612685018685" duration="24099000" />
     </task>
     <servers />
   </component>

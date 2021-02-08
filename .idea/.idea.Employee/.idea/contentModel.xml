@@ -49,6 +49,7 @@
         <e p="CustomValidation" t="Include" />
         <e p="EmployeeData.csproj" t="IncludeRecursive" />
         <e p="Interfaces" t="Include">
+          <e p="IAdministration.cs" t="Include" />
           <e p="IEmployee.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -61,16 +62,23 @@
             </e>
           </e>
         </e>
+        <e p="POCO" t="Include">
+          <e p="Role.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
         <e p="SeedData" t="Include">
+          <e p="Administration.cs" t="Include" />
           <e p="DataSeeding.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="EmployeeRepository.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="AddUserToRoleModels.cs" t="Include" />
           <e p="EditRoleViewModel.cs" t="Include" />
           <e p="LoginViewModel.cs" t="Include" />
           <e p="RegisterModel.cs" t="Include" />
+          <e p="RoleAssignViewModels.cs" t="Include" />
           <e p="RoleViewModel.cs" t="Include" />
         </e>
       </e>

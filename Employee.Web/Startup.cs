@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using EmployeeData.Context;
 using EmployeeData.Interfaces;
+using EmployeeData.SeedData;
 using EmployeeData.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,6 +34,7 @@ namespace Employee.Web
             services.AddDbContextPool<AppDbContext>(option=>option.UseNpgsql(Configuration.GetConnectionString("ConnectionString"),b=>
                 b.MigrationsAssembly("Employee.Web")));
             services.AddScoped<IEmployee, EmployeeRepository>();
+            services.AddScoped<IAdministration, Administration>();
             services.AddIdentity<ApplicationUser, IdentityRole>(options =>
                 {
                     //this change PassOptions Class from IdentityOption Class

@@ -55,5 +55,12 @@ namespace Employee.Web.Controllers
             var user =await _signInManager.PasswordSignInAsync(login.UserName, login.Password, false, false);
             return user.Succeeded ? Ok("sign in") : Ok("invalid login");
         }
+        [HttpGet]
+        [Route("users")]
+        public  IActionResult Users()
+        {
+            var data = _userManager.Users;
+            return Ok(data);
+        }
     }
 }

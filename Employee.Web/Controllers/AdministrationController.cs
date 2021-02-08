@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using EmployeeData.Context;
+using EmployeeData.Interfaces;
 using EmployeeData.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,11 +13,18 @@ namespace Employee.Web.Controllers
     {
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IAdministration _administration;
 
-        public AdministrationController(RoleManager<IdentityRole> roleManager,UserManager<ApplicationUser> userManager)
+        public AdministrationController
+            (
+            RoleManager<IdentityRole> roleManager,
+            UserManager<ApplicationUser> userManager,
+            IAdministration administration
+            )
         {
             _roleManager = roleManager;
             _userManager = userManager;
+            _administration = administration;
         }
         
         [HttpPost]
@@ -78,6 +86,36 @@ namespace Employee.Web.Controllers
 
             return Ok(editRole);
 
+        }
+        [HttpGet]
+        [Route("roleandusers")]
+        public IActionResult RoleAndUsers()
+        {
+            var data = _administration.RoleAssignViewModelsEnumerable();
+            if (data!=null)
+            {
+                return Ok(data);
+            }
+
+            return Ok("not found");
+        }
+        
+        [HttpPost]
+        [Route("addrole")]
+        public async Task<IActionResult> AddUserToRole(AddUserToRoleModels roleModels)
+        {
+            var user = await _userManager.FindByIdAsync(roleModels.UserId);
+            var role = await _roleManager.FindByIdAsync(roleModels.RoleId);
+            if (user != null && role != null)
+            {
+                var result = await _userManager.AddToRoleAsync(user, role.Name);
+                if (result.Succeeded)
+                {
+                    return Ok(result.Succeeded);
+                }
+            }
+
+            return Ok("user or role not found");
         }
     }
 }
