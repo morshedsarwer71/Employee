@@ -96,17 +96,25 @@ namespace Employee.Web.Controllers
         public async Task<IActionResult> UpdateUser(UserViewModels models)
         {
             var user = await _userManager.FindByIdAsync(models.Id);
-            if (user!=null)
-            {
-                user.UserName = models.Name;
-                user.City = models.City;
-                user.Email = models.Email;
-                user.Gender = models.Gender;
-                var data = await _userManager.UpdateAsync(user);
-                return data.Succeeded ? Ok(user) : Ok(models);
-            }
+            if (user == null) return NotFound();
+            user.UserName = models.Name;
+            user.City = models.City;
+            user.Email = models.Email;
+            user.Gender = models.Gender;
+            var data = await _userManager.UpdateAsync(user);
+            return data.Succeeded ? Ok(user) : Ok(models);
 
-            return NotFound();
+        }
+
+        [HttpPost]
+        [Route("Delete")]
+        public async Task<IActionResult> DeleteUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null) return NotFound();
+            var delete = await _userManager.DeleteAsync(user);
+            return delete.Succeeded ? Ok(delete.Succeeded) : Ok(delete.Errors);
+            
         }
     }
 }
