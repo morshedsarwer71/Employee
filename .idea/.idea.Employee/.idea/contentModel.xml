@@ -80,6 +80,9 @@
           <e p="RegisterModel.cs" t="Include" />
           <e p="RoleAssignViewModels.cs" t="Include" />
           <e p="RoleViewModel.cs" t="Include" />
+          <e p="User" t="Include">
+            <e p="UserViewModels.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

@@ -1,6 +1,9 @@
+using System.Linq;
 using System.Threading.Tasks;
 using EmployeeData.Context;
 using EmployeeData.ViewModels;
+using EmployeeData.ViewModels.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -61,6 +64,49 @@ namespace Employee.Web.Controllers
         {
             var data = _userManager.Users;
             return Ok(data);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("user")]
+        public async Task<IActionResult> GetUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user!=null)
+            {
+                var claims = await _userManager.GetClaimsAsync(user);
+                var roles = await _userManager.GetRolesAsync(user);
+
+                var userViewModels = new UserViewModels
+                {
+                    Id = user.Id,
+                    Name = user.UserName,
+                    Email = user.Email,
+                    Claims = claims.Select(x=>x.Value).ToList(),
+                    Roles = roles
+                };
+
+                return Ok(userViewModels);
+            }
+
+            return NoContent();
+        }
+        [HttpPost]
+        [Route("update")]
+        public async Task<IActionResult> UpdateUser(UserViewModels models)
+        {
+            var user = await _userManager.FindByIdAsync(models.Id);
+            if (user!=null)
+            {
+                user.UserName = models.Name;
+                user.City = models.City;
+                user.Email = models.Email;
+                user.Gender = models.Gender;
+                var data = await _userManager.UpdateAsync(user);
+                return data.Succeeded ? Ok(user) : Ok(models);
+            }
+
+            return NotFound();
         }
     }
 }
