@@ -9,6 +9,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
+          <e p="AdministrationController.cs" t="Include" />
           <e p="EmployeeController.cs" t="Include" />
         </e>
         <e p="Employee.Web.csproj" t="IncludeRecursive" />
@@ -67,8 +68,10 @@
           <e p="EmployeeRepository.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include">
+          <e p="EditRoleViewModel.cs" t="Include" />
           <e p="LoginViewModel.cs" t="Include" />
           <e p="RegisterModel.cs" t="Include" />
+          <e p="RoleViewModel.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
