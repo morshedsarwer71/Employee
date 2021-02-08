@@ -117,5 +117,22 @@ namespace Employee.Web.Controllers
 
             return Ok("user or role not found");
         }
+        [HttpPost]
+        [Route("romoverole")]
+        public async Task<IActionResult> RemoveRole(AddUserToRoleModels roleModels)
+        {
+            var user = await _userManager.FindByIdAsync(roleModels.UserId);
+            var role = await _roleManager.FindByIdAsync(roleModels.RoleId);
+            if (user != null && role != null)
+            {
+                var result = await _userManager.RemoveFromRoleAsync(user, role.Name);
+                if (result.Succeeded)
+                {
+                    return Ok(result.Succeeded);
+                }
+            }
+
+            return Ok("user or role not found");
+        }
     }
 }

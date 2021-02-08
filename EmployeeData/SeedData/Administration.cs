@@ -28,6 +28,7 @@ namespace EmployeeData.SeedData
                 Roles = role,
                 Users = users
             };
+            
             return data;
 
         }
