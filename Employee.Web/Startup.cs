@@ -40,7 +40,12 @@ namespace Employee.Web
                     //this change PassOptions Class from IdentityOption Class
                     options.Password.RequiredLength = 5;
                     options.Password.RequiredUniqueChars = 1;
-                }).AddEntityFrameworkStores<AppDbContext>();
+
+                    //email confirmation validation checking
+
+                    // options.SignIn.RequireConfirmedEmail = true;
+                }).AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
             services.AddControllers();
             
         }

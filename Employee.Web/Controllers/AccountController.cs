@@ -6,6 +6,7 @@ using EmployeeData.ViewModels.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace Employee.Web.Controllers
 {
@@ -15,11 +16,18 @@ namespace Employee.Web.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AccountController
+        (
+            UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager,
+            ILogger<AccountController> logger
+            )
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _logger = logger;
         }
         // this method use for core mvc as remote validation not for core web api
         [AcceptVerbs("Get","Post")]
@@ -41,7 +49,35 @@ namespace Employee.Web.Controllers
                     Gender = model.Gender
                 };
                 var result = await _userManager.CreateAsync(user, model.Password);
-                return result.Succeeded ? Ok(user) : Ok("not inserted");
+                if (result.Succeeded)
+                {
+                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var id =await _userManager.FindByEmailAsync(model.Email);
+                    
+                    // also data logging
+                    _logger.Log(LogLevel.Warning, $"token id: {token} and Id is: {id}");
+                    return Ok(new {token = token, id = id});
+                }
+
+                return Ok(null);
+                // return result.Succeeded ? Ok(user) : Ok("not inserted");
+        }
+        
+        [HttpPost]
+        [Route("emailconfirm")]
+        public async Task<IActionResult> EmilConfirmation(string id, string token)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user != null)
+            {
+                var result =await _userManager.ConfirmEmailAsync(user,token);
+                if (result.Succeeded)
+                {
+                    return Ok("email confirmed");
+                }
+            }
+
+            return NotFound();
         }
         [HttpPost]
         [Route("LogOut")]
@@ -55,6 +91,11 @@ namespace Employee.Web.Controllers
         [Route("Login")]
         public async Task<IActionResult> Login(LoginViewModel login)
         {
+            var emailUser = await _userManager.FindByEmailAsync(login.UserName);
+            if (emailUser !=null && !emailUser.EmailConfirmed && (await _userManager.CheckPasswordAsync(emailUser,login.Password)))
+            {
+                return Ok("email not confirmed yet");
+            }
             var user =await _signInManager.PasswordSignInAsync(login.UserName, login.Password, false, false);
             return user.Succeeded ? Ok("sign in") : Ok("invalid login");
         }
